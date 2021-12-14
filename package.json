@@ -1,0 +1,21 @@
+{
+    "name": "sweetdracula-monokai",
+    "displayName": "sweetdracula monokai",
+    "description": "sweetdracula + monokai",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "sweetdracula monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/sweetdracula monokai-color-theme.json"
+            }
+        ]
+    }
+}
