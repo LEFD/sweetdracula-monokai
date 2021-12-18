@@ -1,0 +1,17 @@
+body {
+  background: #191919;
+}
+div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+p {
+  padding: 10px;
+}
+
+.misc {
+  color: white;
+}

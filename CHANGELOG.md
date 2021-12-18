@@ -7,3 +7,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+
+0.0.1.a:
+
+- reduced brightness of foreground color in many places (usually text)
+- improved visibility of active tab
+- improved visibility of ctrl+f results
+- improved visibility of editor.findMatchHighlightBorder
+- improved visibility of menu selection
+
+0.0.1.b:
