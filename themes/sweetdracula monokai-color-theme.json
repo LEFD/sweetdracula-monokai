@@ -299,10 +299,19 @@
                 "foreground": "#F8F8F2"
             }
         },
+        //! I hope this is OK
+        // {
+        //     "name": "Class definitions",
+        //     "scope": ["entity.name.type.class"],
+        //     "settings": {
+        //         "foreground": "#A6E22E"
+        //     }
+        // },
         {
-            "name": "Class definitions",
-            "scope": ["entity.name.type.class"],
+            "name": "Class name",
+            "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
             "settings": {
+                "fontStyle": "underline",
                 "foreground": "#A6E22E"
             }
         },
@@ -329,7 +338,9 @@
             "name": "Inherited classes",
             "scope": ["entity.other.inherited-class"],
             "settings": {
-                "foreground": "#66D9EF"
+                "fontStyle": "italic underline",
+                "foreground": "#A6E22E"
+                // "foreground": "#66D9EF"
             }
         },
         {
@@ -391,7 +402,7 @@
                 "constant.regexp"
             ],
             "settings": {
-                "foreground": "#F92672"
+                "foreground": "#AE81FF"
             }
         },
         {
@@ -552,13 +563,13 @@
                 "foreground": "#F92672"
             }
         },
-        {
-            "name": "Types",
-            "scope": ["entity.name.type"],
-            "settings": {
-                "foreground": "#66D9EF"
-            }
-        },
+        // {
+        //     "name": "Types",
+        //     "scope": ["entity.name.type"],
+        //     "settings": {
+        //         "foreground": "#66D9EF"
+        //     }
+        // },
         {
             "name": "Generics, templates, and mapped type declarations",
             "scope": [
@@ -894,6 +905,20 @@
             "scope": ["entity.name.tag"],
             "settings": {
                 "foreground": "#F92672"
+            }
+        },
+        {
+            "name": "HTML tags text",
+            "scope": ["text.html.derivative"],
+            "settings": {
+                "foreground": "#F8F8F2"
+            }
+        },
+        {
+            "name": "HTML opening/closing",
+            "scope": ["punctuation.definition.tag"],
+            "settings": {
+                "foreground": "#6272A4" //? change to #CCCCCC
             }
         },
         {

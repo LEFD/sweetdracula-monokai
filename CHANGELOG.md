@@ -17,3 +17,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - improved visibility of menu selection
 
 0.0.1.b:
+
+- changed syntax highlighting to the monokai color scheme
