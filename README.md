@@ -1,13 +1,9 @@
-# README
-## This is the README for your extension "sweetdracula-monokai"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Sweet Dracula Monokai
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+**Sweet Dracula Monokai** - PROxZIMA's [Sweet Dracula theme](https://github.com/PROxZIMA/sweet-dracula) with small visibility improvements and Monokai-style syntax highlighting.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Screenshots
 
-**Enjoy!**
+![VS Code](assets/vscode-fullscreen.png)
+
+![Syntax highlighting](assets/code.png)

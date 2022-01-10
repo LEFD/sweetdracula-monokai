@@ -1,20 +1,27 @@
 {
     "name": "sweetdracula-monokai",
-    "displayName": "sweetdracula monokai",
-    "description": "sweetdracula + monokai",
-    "version": "0.0.1",
+    "displayName": "Sweet Dracula Monokai",
+    "description": "Sweet Dracula + Monokai syntax highlighting",
+    "version": "1.0.0",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.63.0"
     },
+	"keywords": [
+		"dracula",
+		"dark",
+		"theme",
+		"color-theme"
+	],
     "categories": [
         "Themes"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "sweetdracula monokai",
+                "label": "Sweet Dracula Monokai",
                 "uiTheme": "vs-dark",
-                "path": "./themes/sweetdracula monokai-color-theme.json"
+                "path": "./themes/sweetdracula-monokai-color-theme.json"
             }
         ]
     }

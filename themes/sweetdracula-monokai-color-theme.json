@@ -109,7 +109,8 @@
         "editor.lineHighlightBackground": "#232634",
         "minimapSlider.background": "#4c4b5f40",
         "minimapSlider.hoverBackground": "#4c4b5f40", // #161925 + ??????40 = #232634; which transparent color will result in #232634 on a #161925 background?
-        "minimap.selectionHighlight": "#FF79C6",
+        //? maybe make this grey or something
+        // "minimap.selectionHighlight": "#FF79C6", // this should be the same as "editorLineNumber.activeForeground", but warnings are a similar color
         // "minimap.warningHighlight": "#ff0000",
         // "editor.lineHighlightBorder": "#6AC5D3",
         // "editorBracketMatch.background": "#6AC5D344",
