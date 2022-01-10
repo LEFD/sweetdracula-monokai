@@ -3,6 +3,11 @@
     "displayName": "Sweet Dracula Monokai",
     "description": "Sweet Dracula + Monokai syntax highlighting",
     "version": "1.0.0",
+    "publisher": "lefd",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LEFD/sweetdracula-monokai"
+    },
     "license": "MIT",
     "engines": {
         "vscode": "^1.63.0"
@@ -11,7 +16,9 @@
 		"dracula",
 		"dark",
 		"theme",
-		"color-theme"
+		"color-theme",
+        "monokai",
+        "sweet"
 	],
     "categories": [
         "Themes"
