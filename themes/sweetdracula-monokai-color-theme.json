@@ -121,18 +121,18 @@
         "editorBracketPairGuide.activeBackground2": "#DA70D665",
         "editorBracketPairGuide.background2": "#DA70D665",
         "editorBracketHighlight.foreground2": "#DA70D6",
-        "editorBracketPairGuide.activeBackground3": "#87CEEB65",
-        "editorBracketPairGuide.background3": "#87CEEB65",
-        "editorBracketHighlight.foreground3": "#87CEEB",
-        "editorBracketPairGuide.activeBackground4": "#00FF7F65",
-        "editorBracketPairGuide.background4": "#00FF7F65",
-        "editorBracketHighlight.foreground4": "#00FF7F",
-        "editorBracketPairGuide.activeBackground5": "#FF69B465",
-        "editorBracketPairGuide.background5": "#FF69B465",
-        "editorBracketHighlight.foreground5": "#FF69B4",
-        "editorBracketPairGuide.activeBackground6": "#00FFFF65",
-        "editorBracketPairGuide.background6": "#00FFFF65",
-        "editorBracketHighlight.foreground6": "#00FFFF",
+        "editorBracketPairGuide.activeBackground3": "#87CEFA65",
+        "editorBracketPairGuide.background3": "#87CEFA65",
+        "editorBracketHighlight.foreground3": "#87CEFA",
+        // "editorBracketPairGuide.activeBackground4": "#00FF7F65",
+        // "editorBracketPairGuide.background4": "#00FF7F65",
+        // "editorBracketHighlight.foreground4": "#00FF7F",
+        // "editorBracketPairGuide.activeBackground5": "#FF69B465",
+        // "editorBracketPairGuide.background5": "#FF69B465",
+        // "editorBracketHighlight.foreground5": "#FF69B4",
+        // "editorBracketPairGuide.activeBackground6": "#00FFFF65",
+        // "editorBracketPairGuide.background6": "#00FFFF65",
+        // "editorBracketHighlight.foreground6": "#00FFFF",
         "editorWhitespace.foreground": "#424450",
         "editorHoverWidget.highlightForeground": "#44475A",
         "editorIndentGuide.background": "#42445075",
@@ -368,7 +368,7 @@
                 "variable.parameter.function.language.special"
             ],
             "settings": {
-                "foreground": "#AE81FF"
+                "foreground": "#FD971F"
             }
         },
         {
@@ -534,7 +534,7 @@
                 "support.function.magic"
             ],
             "settings": {
-                "foreground": "#AE81FF"
+                "foreground": "#66D9EF"
             }
         },
         {
