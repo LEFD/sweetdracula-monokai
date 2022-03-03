@@ -1,5 +1,14 @@
 # Change Log
 
+## 1.1.0
+
+- list selection visibility improvements
+- better snippet tabstop highlighting
+- changed "findMatch" highlighting
+- switched warning color from cyan to yellow
+- streamlined colors in overview ruler and minimap
+- changed other editor highlighting
+
 ## 1.0.0
 
 - Initial release
