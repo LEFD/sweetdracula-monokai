@@ -6,7 +6,7 @@
 
 ## VSCode Screenshot
 
-![VS Code](assets/screenshot.png)
+![VS Code](assets/screenshot3.1.png)
 
 ## Font Settings in Screenshot
 
@@ -19,7 +19,5 @@ Font used: [Fira Code](https://github.com/tonsky/FiraCode) with ligatures.
     "editor.lineHeight": 25
 
 ---
-
-Please let me know if you have spotted a pink `(FF00FF)` element, as I could not find all matching UI elements for every attribute I changed.
 
 Send me feedback on [GitHub](https://github.com/LEFD/sweetdracula-monokai).

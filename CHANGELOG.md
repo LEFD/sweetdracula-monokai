@@ -8,6 +8,8 @@
 - switched warning color from cyan to yellow
 - streamlined colors in overview ruler and minimap
 - changed other editor highlighting
+- debug colors adjusted
+- other minor UI changes
 
 ## 1.0.0
 
