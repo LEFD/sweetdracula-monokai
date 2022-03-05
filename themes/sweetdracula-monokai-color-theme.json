@@ -67,6 +67,8 @@
         },
     },
     "colors": {
+        //! Hex editor: changed values have a low contrast
+        //  effected properties: "editor.foreground" & "minimapGutter.modifiedBackground"
         "activityBar.background": "#232634",
         "activityBar.foreground": "#F8F8F2",
         "activityBar.border": "#232634",
@@ -103,7 +105,7 @@
         "editorCursor.foreground": "#F8F8F2",
         "editor.selectionBackground": "#44475A",
         "editor.selectionHighlightBorder": "#44475A",
-        "editor.selectionForeground": "#ff00ff",
+        "editor.selectionForeground": "#8BE9FD", // make white
         "editor.wordHighlightBackground": "#8BE9FD50",
         "editor.wordHighlightStrongBackground": "#50FA7B50",
         "editor.foldBackground": "#11131C",
@@ -119,7 +121,7 @@
         "editor.snippetFinalTabstopHighlightBackground": "#50FA7B20",
         "editor.snippetFinalTabstopHighlightBorder": "#50FA7B",
         "minimapSlider.background": "#4c4b5f40",
-        "minimapSlider.hoverBackground": "#4c4b5f40", // #161925 + ??????40 = #232634;
+        "minimapSlider.hoverBackground": "#4c4b5f60", // #161925 + ??????40 = #232634;
         "minimap.selectionHighlight": "#44475A",
         "minimap.findMatchHighlight": "#DE559C",
         "minimapSlider.activeBackground": "#6272A488",
@@ -142,7 +144,7 @@
         "editorWhitespace.foreground": "#424450",
         "editorIndentGuide.activeBackground": "#6273a475",
         "editorCodeLens.foreground": "#6272A4",
-        "editorOverviewRuler.border": "#2B294080", //? disable
+        "editorOverviewRuler.border": "#2B294080",
         "editorOverviewRuler.selectionHighlightForeground": "#44475A80",
         "editorOverviewRuler.wordHighlightForeground": "#8BE9FD",
         "editorOverviewRuler.wordHighlightStrongForeground": "#50FA7B",
