@@ -3,8 +3,8 @@
     "type": "dark",
     "colorVars": {
         "base": {
-            "bg": "#161925",
-            "fg": "#F8F8F2",
+            "background": "#161925",
+            "foreground": "#F8F8F2",
             "fg-light": "#CCCCCC",
             "cyan": "#8BE9FD", // -> blue done
             "green": "#50FA7B", // -> green done
@@ -39,7 +39,6 @@
             "OLDBorder": "#BD93F922",
             "NEWBorder": "#2B2940",
             "lineHighlight": "#232634",
-            "NEWlineHighlight": "#BD93F9", //! what is this?
             "container": "#232634",
             "nonText": "#424450",
             "tabDropBg": "#44475A70",
@@ -52,6 +51,7 @@
             "FocusBorder": "#3F4F81",
             "NEWActiveListSelection": "#6272A488", //? change this to FocusBorder?
             "menuHover": "#3A434D",
+            "inactiveListHighlight": "#232634BB",
         },
         "monokai": {
             "Background": "#272822",
@@ -68,11 +68,11 @@
     },
     "colors": {
         //! Hex editor: changed values have a low contrast
-        //  effected properties: "editor.foreground" & "minimapGutter.modifiedBackground"
+        // effected properties: "editor.foreground" & "minimapGutter.modifiedBackground"
         "activityBar.background": "#232634",
         "activityBar.foreground": "#F8F8F2",
         "activityBar.border": "#232634",
-        "activityBar.activeBorder": "#DE559C",
+        "activityBar.activeBorder": "#FF79C6",
         "activityBar.inactiveForeground": "#6272A4",
         "activityBarBadge.background": "#DE559C",
         "activityBarBadge.foreground": "#F8F8F2",
@@ -89,9 +89,8 @@
         "breadcrumbPicker.background": "#161925",
         "button.background": "#574473",
         // "button.foreground": "#F8F8F2",
-        "contrastBorder": "#191A21",
+        // "contrastBorder": "#191A21", // this moves some items by a couple pixels
         "debugToolBar.background": "#161925",
-        "debugToolBar.border": "#6272A4",
         "diffEditor.insertedTextBackground": "#50FA7B20",
         "diffEditor.removedTextBackground": "#FF555550",
         "dropdown.background": "#232634",
@@ -102,7 +101,7 @@
         "editor.background": "#161925",
         "editorLineNumber.foreground": "#6272A4",
         "editorLineNumber.activeForeground": "#8BE9FD",
-        "editorCursor.foreground": "#F8F8F2",
+        "editorCursor.foreground": "#8BE9FD",
         "editor.selectionBackground": "#44475A",
         "editor.selectionHighlightBorder": "#44475A",
         "editor.selectionForeground": "#8BE9FD", // make white
@@ -110,20 +109,20 @@
         "editor.wordHighlightStrongBackground": "#50FA7B50",
         "editor.foldBackground": "#11131C",
         "editor.findMatchBackground": "#FFB86C80",
-        "editor.findMatchHighlightBackground": "#DE559C40",
+        "editor.findMatchHighlightBackground": "#FF79C640",
         "editor.findRangeHighlightBackground": "#ff00ff", //? what is this?
         "editor.hoverHighlightBackground": "#8BE9FD40",
         "editorLink.activeForeground": "#8BE9FD",
         "editor.rangeHighlightBackground": "#161925",
         "editor.lineHighlightBackground": "#232634",
-        "editor.snippetTabstopHighlightBackground": "#6272A420",
-        "editor.snippetTabstopHighlightBorder": "#6272A4",
+        "editor.snippetTabstopHighlightBackground": "#8BE9FD20",
+        "editor.snippetTabstopHighlightBorder": "#8BE9FD80",
         "editor.snippetFinalTabstopHighlightBackground": "#50FA7B20",
         "editor.snippetFinalTabstopHighlightBorder": "#50FA7B",
         "minimapSlider.background": "#4c4b5f40",
         "minimapSlider.hoverBackground": "#4c4b5f60", // #161925 + ??????40 = #232634;
         "minimap.selectionHighlight": "#44475A",
-        "minimap.findMatchHighlight": "#DE559C",
+        "minimap.findMatchHighlight": "#FF79C6",
         "minimapSlider.activeBackground": "#6272A488",
         "minimapGutter.modifiedBackground": "#8BE9FD80",
         "minimapGutter.addedBackground": "#50FA7B80",
@@ -154,7 +153,7 @@
         "editorOverviewRuler.errorForeground": "#FF555580",
         "editorOverviewRuler.warningForeground": "#F1FA8C80",
         "editorOverviewRuler.infoForeground": "#8BE9FD80",
-        "editorOverviewRuler.findMatchForeground": "#DE559C80",
+        "editorOverviewRuler.findMatchForeground": "#FF79C680",
         "editorError.foreground": "#FF5555",
         "editorWarning.foreground": "#F1FA8C",
         "editorInfo.foreground": "#8BE9FD",
@@ -167,10 +166,10 @@
         "editorGroup.border": "#2B2940",
         "editorGroup.dropBackground": "#44475A70",
         "editorGroupHeader.tabsBackground": "#11131C",
-        "tab.activeBackground": "#232634",
+        "tab.activeBackground": "#161925",
         "tab.activeForeground": "#F8F8F2",
         "tab.activeBorderTop": "#FF79C6",
-        // "tab.unfocusedActiveBorderTop": "#161925",
+        "tab.unfocusedActiveBorderTop": "#232634BB",
         "tab.unfocusedActiveBackground": "#161925",
         "tab.border": "#11131C",
         "tab.inactiveBackground": "#11131C",
@@ -236,6 +235,7 @@
         "panelTitle.activeBorder": "#FF79C6",
         "panelTitle.activeForeground": "#F8F8F2",
         "panelTitle.inactiveForeground": "#6272A4",
+        "panelSectionHeader.background": "#11131C",
         "peekView.border": "#6272A4",
         "peekViewEditor.background": "#161925",
         "peekViewEditor.matchHighlightBackground": "#F1FA8C80",
@@ -285,7 +285,7 @@
         "terminal.ansiMagenta": "#8C6BC8",
         "terminal.ansiCyan": "#56ADBC",
         "terminal.ansiWhite": "#e3e3dd",
-        "terminal.selectionBackground": "#555555",
+        "terminal.selectionBackground": "#44475A",
         "terminalCursor.background": "#161925",
         "titleBar.activeBackground": "#161925",
         "titleBar.inactiveBackground": "#161925",
@@ -1828,17 +1828,6 @@
             ],
             "settings": {
                 "foreground": "#AE81FF"
-            }
-        },
-        {
-            "name": "Shell foreground resets",
-            "scope": [
-                "meta.scope.for-loop.shell punctuation.definition.string.begin",
-                "meta.scope.for-loop.shell punctuation.definition.string.end",
-                "meta.scope.for-loop.shell string"
-            ],
-            "settings": {
-                "foreground": "#F8F8F2"
             }
         },
         {

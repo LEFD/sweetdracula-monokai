@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.1.2
+
+- removed contrast border
+- other minor changes
+
 ## 1.1.0
 
 - list selection visibility improvements
