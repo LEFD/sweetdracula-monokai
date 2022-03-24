@@ -49,7 +49,7 @@
             "purpleDarker": "#574473",
             "selection": "#44475A",
             "FocusBorder": "#3F4F81",
-            "NEWActiveListSelection": "#6272A488", //? change this to FocusBorder?
+            "ActiveListSelection": "#6272A488", //? change this to FocusBorder?
             "menuHover": "#3A434D",
             "inactiveListHighlight": "#232634BB",
         },
@@ -124,6 +124,7 @@
         "minimap.selectionHighlight": "#44475A",
         "minimap.findMatchHighlight": "#FF79C6",
         "minimapSlider.activeBackground": "#6272A488",
+        // "minimap.selectionOccurrenceHighlight": "#8BE9FD50",
         "minimapGutter.modifiedBackground": "#8BE9FD80",
         "minimapGutter.addedBackground": "#50FA7B80",
         "minimapGutter.deletedBackground": "#FF555580",
@@ -173,7 +174,7 @@
         "tab.unfocusedActiveBackground": "#161925",
         "tab.border": "#11131C",
         "tab.inactiveBackground": "#11131C",
-        "tab.inactiveForeground": "#6272A4",
+        "tab.inactiveForeground": "#CCCCCC",
         "editorWidget.background": "#161925",
         "editorWidget.border": "#6272A4",
         "editorWidget.resizeBorder": "#BD93F9",
@@ -288,8 +289,9 @@
         "terminal.selectionBackground": "#44475A",
         "terminalCursor.background": "#161925",
         "titleBar.activeBackground": "#161925",
-        "titleBar.inactiveBackground": "#161925",
+        "titleBar.inactiveBackground": "#11131C",
         "titleBar.inactiveForeground": "#6272A4",
+        "tree.indentGuidesStroke": "#6273a475",
         "debugIcon.continueForeground": "#8BE9FD",
         "debugIcon.startForeground": "#50FA7B",
         "debugIcon.restartForeground": "#50FA7B",
@@ -2031,6 +2033,15 @@
             "settings": {
                 "fontStyle": "underline",
                 "foreground": "#A6E22E"
+            }
+        },
+        {
+            "name": "Support Functions",
+            "scope": [
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#66D9EF",
             }
         }
     ]
