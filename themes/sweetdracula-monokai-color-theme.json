@@ -6,13 +6,13 @@
             "background": "#161925",
             "foreground": "#F8F8F2",
             "fg-light": "#CCCCCC",
-            "cyan": "#8BE9FD", // -> blue done
-            "green": "#50FA7B", // -> green done
-            "orange": "#FFB86C", // -> orange done
-            "pink": "#FF79C6", // -> pink done
-            "purple": "#BD93F9", // -> purple done
-            "red": "#FF5555", // -> red done
-            "yellow": "#F1FA8C", // -> yellow done
+            "cyan": "#8BE9FD",
+            "green": "#50FA7B",
+            "orange": "#FFB86C",
+            "pink": "#FF79C6",
+            "purple": "#BD93F9",
+            "red": "#FF5555",
+            "yellow": "#F1FA8C",
             "white": "#FFFFFF"
         },
         "ansi": {
@@ -35,9 +35,8 @@
         },
         "misc": {
             "comment": "#6272A4",
-            "activeBorder": "#6272A4",
-            "OLDBorder": "#BD93F922",
-            "NEWBorder": "#2B2940",
+            // "activeBorder": "#BD93F9",
+            "Border": "#BD93F922",
             "lineHighlight": "#232634",
             "container": "#232634",
             "nonText": "#424450",
@@ -52,6 +51,7 @@
             "ActiveListSelection": "#6272A488", //? change this to FocusBorder?
             "menuHover": "#3A434D",
             "inactiveListHighlight": "#232634BB",
+            "dragBorder" :"2B2940"
         },
         "monokai": {
             "Background": "#272822",
@@ -71,11 +71,11 @@
         // effected properties: "editor.foreground" & "minimapGutter.modifiedBackground"
         "activityBar.background": "#232634",
         "activityBar.foreground": "#F8F8F2",
-        "activityBar.border": "#232634",
+        "activityBar.border": "#2B294000",
         "activityBar.activeBorder": "#FF79C6",
         "activityBar.inactiveForeground": "#6272A4",
-        "activityBarBadge.background": "#DE559C",
-        "activityBarBadge.foreground": "#F8F8F2",
+        "activityBarBadge.background": "#FF79C6",
+        "activityBarBadge.foreground": "#232634",
         "badge.foreground": "#F8F8F2",
         "badge.background": "#232634",
         "focusBorder": "#3F4F81", //? make this the same color as cursor highlight
@@ -93,9 +93,9 @@
         "debugToolBar.background": "#161925",
         "diffEditor.insertedTextBackground": "#50FA7B20",
         "diffEditor.removedTextBackground": "#FF555550",
-        "dropdown.background": "#232634",
-        "dropdown.listBackground": "#232634",
-        "dropdown.border": "#6272A4",
+        "dropdown.background": "#161925",
+        "dropdown.listBackground": "#161925",
+        "dropdown.border": "#232634",
         // "dropdown.foreground": "#F8F8F2",
         // "editor.foreground": "#F8F8F2",
         "editor.background": "#161925",
@@ -107,7 +107,7 @@
         "editor.selectionForeground": "#8BE9FD", // make white
         "editor.wordHighlightBackground": "#8BE9FD50",
         "editor.wordHighlightStrongBackground": "#50FA7B50",
-        "editor.foldBackground": "#11131C",
+        "editor.foldBackground": "#04000040",
         "editor.findMatchBackground": "#FFB86C80",
         "editor.findMatchHighlightBackground": "#FF79C640",
         "editor.findRangeHighlightBackground": "#ff00ff", //? what is this?
@@ -184,7 +184,10 @@
         "editorSuggestWidget.selectedBackground": "#6272A488",
         "editorHoverWidget.background": "#161925",
         "editorHoverWidget.border": "#6272A4",
-        "editorMarkerNavigation.background": "#21222C",
+        "editorMarkerNavigation.background": "#161925",
+        "editorMarkerNavigationError.headerBackground": "#ff555510",
+        "editorMarkerNavigationWarning.headerBackground": "#F1FA8C10",
+        "editorMarkerNavigationInfo.headerBackground": "#8BE9FD10",
         "extensionButton.prominentForeground": "#F8F8F2",
         "extensionButton.prominentBackground": "#50FA7B90",
         "extensionButton.prominentHoverBackground": "#50FA7B60",
@@ -197,17 +200,17 @@
         "input.foreground": "#F8F8F2",
         "input.border": "#232634",
         "input.placeholderForeground": "#6272A4",
-        "inputOption.activeBorder": "#6272A4",
-        "inputValidation.infoBorder": "#FF79C6",
-        "inputValidation.warningBorder": "#FFB86C",
+        "inputOption.activeBorder": "#BD93F9",
+        "inputValidation.infoBorder": "#8BE9FD",
+        "inputValidation.warningBorder": "#F1FA8C",
         "inputValidation.errorBorder": "#FF5555",
         "list.activeSelectionBackground": "#6272A488",
         "list.activeSelectionForeground": "#F8F8F2",
         "list.dropBackground": "#44475A",
         "list.focusBackground": "#232634",
         "list.highlightForeground": "#8BE9FD",
-        "list.hoverBackground": "#232634",
-        "list.inactiveSelectionBackground": "#232634BB",
+        "list.hoverBackground": "#3E486880",
+        "list.inactiveSelectionBackground": "#232634",
         "list.hoverForeground": "#F8F8F2",
         "list.focusForeground": "#F8F8F2",
         "list.warningForeground": "#F1FA8C",
@@ -269,7 +272,6 @@
         "statusBarItem.prominentBackground": "#FF5555",
         "statusBarItem.prominentHoverBackground": "#FFB86C",
         "terminal.background": "#161925",
-        // "terminal.foreground": "#F8F8F2",
         "terminal.ansiBrightBlack": "#666666",
         "terminal.ansiBrightRed": "#f92672",
         "terminal.ansiBrightGreen": "#A6E22E",
@@ -353,22 +355,29 @@
                 "foreground": "#F8F8F2"
             }
         },
-        //! I hope this is OK
-        // {
-        //     "name": "Class definitions",
-        //     "scope": ["entity.name.type.class"],
-        //     "settings": {
-        //         "foreground": "#A6E22E"
-        //     }
-        // },
         {
-            "name": "Class name",
-            "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+            "name": "Class definitions",
+            "scope": ["entity.name.type.class", "entity.name.type.cpp"],
             "settings": {
+                "foreground": "#A6E22E",
                 "fontStyle": "underline",
-                "foreground": "#A6E22E"
             }
         },
+        {
+            "name": "Namespace",
+            "scope": "entity.name.namespace",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        // {
+        //     "name": "C++ Class Templated",
+        //     "scope": "entity.name.type.class.templated",
+        //     "settings": {
+        //         "foreground": "#66D9EF",
+        //         "fontStyle": ""
+        //     }
+        // },
         {
             "name": "Storage Types",
             "scope": [
@@ -648,13 +657,13 @@
                 "foreground": "#F92672"
             }
         },
-        // {
-        //     "name": "Types",
-        //     "scope": ["entity.name.type"],
-        //     "settings": {
-        //         "foreground": "#66D9EF"
-        //     }
-        // },
+        {
+            "name": "Types",
+            "scope": ["entity.name.type"],
+            "settings": {
+                "foreground": "#66D9EF"
+            }
+        },
         {
             "name": "Generics, templates, and mapped type declarations",
             "scope": [
@@ -2039,6 +2048,15 @@
             "name": "Support Functions",
             "scope": [
                 "support.function"
+            ],
+            "settings": {
+                "foreground": "#66D9EF",
+            }
+        },
+        {
+            "name": "C/C++ macro",
+            "scope": [
+                "entity.name.function.preprocessor"
             ],
             "settings": {
                 "foreground": "#66D9EF",
