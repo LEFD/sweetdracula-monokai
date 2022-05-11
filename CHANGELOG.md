@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.1.3
+
+- terminal colors are a mix of dracula and monokai now
+- other minor changes
+
 ## 1.1.2
 
 - removed contrast border
