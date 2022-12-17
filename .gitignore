@@ -1,4 +1,5 @@
 node_modules
 *.vsix
-sweet-dracula-master/
 .vscode/
+inspiration/
+*.ps1

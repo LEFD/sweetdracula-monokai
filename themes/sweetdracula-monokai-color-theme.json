@@ -35,8 +35,7 @@
         },
         "misc": {
             "comment": "#6272A4",
-            // "activeBorder": "#BD93F9",
-            "Border": "#BD93F922",
+            "activeBorder": "#BD93F9",
             "lineHighlight": "#232634",
             "container": "#232634",
             "nonText": "#424450",
@@ -69,6 +68,7 @@
     },
     "colors": {
         //! Hex editor: changed values have a low contrast
+        //! take a look at the "Base Colors"
         // effected properties: "editor.foreground" & "minimapGutter.modifiedBackground"
         "activityBar.background": "#232634",
         "activityBar.foreground": "#F8F8F2",
@@ -140,7 +140,7 @@
         "editorBracketPairGuide.activeBackground3": "#87CEFAC0",
         "editorBracketPairGuide.background3": "#87CEFA65",
         "editorBracketHighlight.foreground3": "#87CEFA",
-        "editorHoverWidget.highlightForeground": "#44475A",
+        // "editorHoverWidget.highlightForeground": "#44475A",
         "editorIndentGuide.background": "#42445075",
         "editorWhitespace.foreground": "#424450",
         "editorIndentGuide.activeBackground": "#6273a475",
@@ -159,6 +159,7 @@
         "editorError.foreground": "#FF5555",
         "editorWarning.foreground": "#F1FA8C",
         "editorInfo.foreground": "#8BE9FD",
+        // "editorHint.foreground": "#ff00ff",
         // "editorHint.foreground": "#ff00ff", //? what is this?
         // "problemsErrorIcon.foreground" and stuff will default to "editorError.foreground"
         "editorGutter.modifiedBackground": "#8BE9FD80",
@@ -178,6 +179,8 @@
         "tab.border": "#11131C",
         "tab.inactiveBackground": "#11131C",
         "tab.inactiveForeground": "#CCCCCC",
+        "tab.activeModifiedBorder": "#8BE9FD",
+        "tab.unfocusedActiveModifiedBorder": "#8BE9FD40",
         "editorWidget.background": "#161925",
         "editorWidget.border": "#6272A4",
         "editorWidget.resizeBorder": "#BD93F9",
@@ -191,14 +194,20 @@
         "editorMarkerNavigationError.headerBackground": "#ff555510",
         "editorMarkerNavigationWarning.headerBackground": "#F1FA8C10",
         "editorMarkerNavigationInfo.headerBackground": "#8BE9FD10",
-        "extensionButton.prominentForeground": "#F8F8F2",
-        "extensionButton.prominentBackground": "#50FA7B90",
-        "extensionButton.prominentHoverBackground": "#50FA7B60",
-        "gitDecoration.modifiedResourceForeground": "#8BE9FD",
-        "gitDecoration.deletedResourceForeground": "#FF5555",
-        "gitDecoration.untrackedResourceForeground": "#50FA7B",
-        "gitDecoration.ignoredResourceForeground": "#6272A4",
-        "gitDecoration.conflictingResourceForeground": "#FFB86C",
+        "extensionIcon.preReleaseForeground": "#50FA7B90",
+        "extensionIcon.sponsorForeground": "#FF79C6",
+        "extensionIcon.starForeground": "#F1FA8C",
+        "extensionIcon.verifiedForeground": "#8BE9FD",
+        "gitDecoration.addedResourceForeground": "#50FA7B", //#81b88b
+		"gitDecoration.conflictingResourceForeground": "#FF79C6", //#e4676b
+		"gitDecoration.deletedResourceForeground": "#FF5555", //#c74e39
+		"gitDecoration.ignoredResourceForeground": "#6272A4", //#8c8c8c
+		"gitDecoration.modifiedResourceForeground": "#8BE9FD", //#e2c08d
+		"gitDecoration.renamedResourceForeground": "#50FA7B", //#73c991
+		"gitDecoration.stageDeletedResourceForeground": "#F92672", //#c74e39
+		"gitDecoration.stageModifiedResourceForeground": "#66D9EF", //#e2c08d
+		"gitDecoration.submoduleResourceForeground": "#BD93F9", //#8db9e2
+		"gitDecoration.untrackedResourceForeground": "#50FA7B", //#73c991
         "input.background": "#11131c",
         "input.foreground": "#F8F8F2",
         "input.placeholderForeground": "#6272A4",
@@ -216,12 +225,26 @@
         "list.hoverForeground": "#F8F8F2",
         "list.focusForeground": "#F8F8F2",
         "list.warningForeground": "#F1FA8C",
-        "merge.currentHeaderBackground": "#50FA7B40",
-        "merge.incomingHeaderBackground": "#BD93F940",
         "editorOverviewRuler.currentContentForeground": "#50FA7B",
         "editorOverviewRuler.incomingContentForeground": "#BD93F9",
+        "merge.currentHeaderBackground": "#50FA7B40",
+        "merge.incomingHeaderBackground": "#BD93F940",
         "mergeEditor.change.background": "#50FA7B20",
         "mergeEditor.change.word.background": "#50FA7B40",
+
+        // "merge.commonContentBackground": "#60606029", //#60606029
+		// "merge.commonHeaderBackground": "#60606066", //#60606066
+		// "merge.currentContentBackground": "#40c8ae33", //#40c8ae33
+        // "merge.incomingContentBackground": "#40a6ff33", //#40a6ff33
+		"mergeEditor.conflict.handled.minimapOverViewRuler": "#50FA7B80", //#adaca8ee
+		"mergeEditor.conflict.handledFocused.border": "#50FA7B80", //#c1c1c1cc
+		"mergeEditor.conflict.handledUnfocused.border": "#50FA7B20", //#86868649
+		"mergeEditor.conflict.unhandled.minimapOverViewRuler": "#FFB86C", //#fcba03
+		"mergeEditor.conflict.unhandledFocused.border": "#FFB86C", //#ffa600
+		"mergeEditor.conflict.unhandledUnfocused.border": "#FFB86C80", //#ffa6007a
+		// "mergeEditor.conflictingLines.background": "#ffea0047", //#ffea0047
+
+
         "menubar.selectionBackground": "#232634",
         "menu.background": "#161925",
         "menu.selectionBackground": "#6272A488",
@@ -244,16 +267,16 @@
         "panelTitle.activeForeground": "#F8F8F2",
         "panelTitle.inactiveForeground": "#6272A4",
         "panelSectionHeader.background": "#11131C",
-        "peekView.border": "#6272A4",
-        "peekViewEditor.background": "#161925",
-        "peekViewEditor.matchHighlightBackground": "#F1FA8C80",
-        "peekViewResult.background": "#161925",
+        "peekView.border": "#BD93F9", // this is a dragborder
+        "peekViewEditor.background": "#11131c",
+        "peekViewEditor.matchHighlightBackground": "#FFB86C80",
+        "peekViewResult.background": "#11131c",
         "peekViewResult.fileForeground": "#F8F8F2",
         "peekViewResult.lineForeground": "#F8F8F2",
-        "peekViewResult.matchHighlightBackground": "#F1FA8C80",
+        "peekViewResult.matchHighlightBackground": "#FFB86C80",
         "peekViewResult.selectionBackground": "#232634",
         "peekViewResult.selectionForeground": "#F8F8F2",
-        "peekViewTitle.background": "#232634",
+        "peekViewTitle.background": "#11131c",
         "peekViewTitleDescription.foreground": "#6272A4",
         "peekViewTitleLabel.foreground": "#F8F8F2",
         "progressBar.background": "#FF79C6",
@@ -297,6 +320,9 @@
         "terminal.selectionBackground": "#44475A",
         "terminalCursor.background": "#161925",
         "terminalCursor.foreground": "#66D9EF",
+        "terminalCommandDecoration.defaultBackground": "#BD93F9",
+        "terminalCommandDecoration.errorBackground": "#FF5555",
+        "terminalCommandDecoration.successBackground": "#8BE9FD", // id make this green but vscode default is blue
         "titleBar.activeBackground": "#161925",
         "titleBar.inactiveBackground": "#11131C",
         "titleBar.inactiveForeground": "#6272A4",
@@ -330,6 +356,13 @@
         "walkThrough.embeddedEditorBackground": "#232634",
         "diffEditor.insertedLineBackground": "#50FA7B20",
         "diffEditor.removedLineBackground": "#FF555520",
+        "textLink.foreground": "#8BE9FD",
+        "textLink.activeForeground": "#8BE9FD",
+        "commandCenter.background": "#11131c",
+        "commandCenter.border": "#00000000",
+		"quickInputTitle.background": "#574473",
+        "editorLightBulbAutoFix.foreground": "#8BE9FD", // untested
+        "editorLightBulb.foreground": "#F1FA8C"
     },
     "tokenColors": [
         {
