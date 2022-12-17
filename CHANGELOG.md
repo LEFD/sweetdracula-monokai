@@ -1,5 +1,14 @@
 # Change Log
 
+## 1.1.4
+
+- updated readme
+- flat search boxes
+- updated peekview colors
+- adjusted various git related colors
+- updated search highlighting
+- small visibility improvements
+
 ## 1.1.3
 
 - terminal colors are a mix of dracula and monokai now

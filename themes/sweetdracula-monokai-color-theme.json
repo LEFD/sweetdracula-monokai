@@ -1,5 +1,5 @@
 {
-"name": "sweetdracula monokai",
+    "name": "sweetdracula monokai",
     "type": "dark",
     "colorVars": {
         "base": {
@@ -51,7 +51,7 @@
             "ActiveListSelection": "#6272A488", //? change this to FocusBorder?
             "menuHover": "#3A434D",
             "inactiveListHighlight": "#232634BB",
-            "dragBorder" :"2B2940"
+            "dragBorder": "2B2940"
         },
         "monokai": {
             "Background": "#272822",
@@ -68,7 +68,6 @@
     },
     "colors": {
         //! Hex editor: changed values have a low contrast
-        //! take a look at the "Base Colors"
         // effected properties: "editor.foreground" & "minimapGutter.modifiedBackground"
         "activityBar.background": "#232634",
         "activityBar.foreground": "#F8F8F2",
@@ -199,15 +198,15 @@
         "extensionIcon.starForeground": "#F1FA8C",
         "extensionIcon.verifiedForeground": "#8BE9FD",
         "gitDecoration.addedResourceForeground": "#50FA7B", //#81b88b
-		"gitDecoration.conflictingResourceForeground": "#FF79C6", //#e4676b
-		"gitDecoration.deletedResourceForeground": "#FF5555", //#c74e39
-		"gitDecoration.ignoredResourceForeground": "#6272A4", //#8c8c8c
-		"gitDecoration.modifiedResourceForeground": "#8BE9FD", //#e2c08d
-		"gitDecoration.renamedResourceForeground": "#50FA7B", //#73c991
-		"gitDecoration.stageDeletedResourceForeground": "#F92672", //#c74e39
-		"gitDecoration.stageModifiedResourceForeground": "#66D9EF", //#e2c08d
-		"gitDecoration.submoduleResourceForeground": "#BD93F9", //#8db9e2
-		"gitDecoration.untrackedResourceForeground": "#50FA7B", //#73c991
+        "gitDecoration.conflictingResourceForeground": "#FF79C6", //#e4676b
+        "gitDecoration.deletedResourceForeground": "#FF5555", //#c74e39
+        "gitDecoration.ignoredResourceForeground": "#6272A4", //#8c8c8c
+        "gitDecoration.modifiedResourceForeground": "#8BE9FD", //#e2c08d
+        "gitDecoration.renamedResourceForeground": "#50FA7B", //#73c991
+        "gitDecoration.stageDeletedResourceForeground": "#F92672", //#c74e39
+        "gitDecoration.stageModifiedResourceForeground": "#66D9EF", //#e2c08d
+        "gitDecoration.submoduleResourceForeground": "#BD93F9", //#8db9e2
+        "gitDecoration.untrackedResourceForeground": "#50FA7B", //#73c991
         "input.background": "#11131c",
         "input.foreground": "#F8F8F2",
         "input.placeholderForeground": "#6272A4",
@@ -231,20 +230,12 @@
         "merge.incomingHeaderBackground": "#BD93F940",
         "mergeEditor.change.background": "#50FA7B20",
         "mergeEditor.change.word.background": "#50FA7B40",
-
-        // "merge.commonContentBackground": "#60606029", //#60606029
-		// "merge.commonHeaderBackground": "#60606066", //#60606066
-		// "merge.currentContentBackground": "#40c8ae33", //#40c8ae33
-        // "merge.incomingContentBackground": "#40a6ff33", //#40a6ff33
-		"mergeEditor.conflict.handled.minimapOverViewRuler": "#50FA7B80", //#adaca8ee
-		"mergeEditor.conflict.handledFocused.border": "#50FA7B80", //#c1c1c1cc
-		"mergeEditor.conflict.handledUnfocused.border": "#50FA7B20", //#86868649
-		"mergeEditor.conflict.unhandled.minimapOverViewRuler": "#FFB86C", //#fcba03
-		"mergeEditor.conflict.unhandledFocused.border": "#FFB86C", //#ffa600
-		"mergeEditor.conflict.unhandledUnfocused.border": "#FFB86C80", //#ffa6007a
-		// "mergeEditor.conflictingLines.background": "#ffea0047", //#ffea0047
-
-
+        "mergeEditor.conflict.handled.minimapOverViewRuler": "#50FA7B80", //#adaca8ee
+        "mergeEditor.conflict.handledFocused.border": "#50FA7B80", //#c1c1c1cc
+        "mergeEditor.conflict.handledUnfocused.border": "#50FA7B20", //#86868649
+        "mergeEditor.conflict.unhandled.minimapOverViewRuler": "#FFB86C", //#fcba03
+        "mergeEditor.conflict.unhandledFocused.border": "#FFB86C", //#ffa600
+        "mergeEditor.conflict.unhandledUnfocused.border": "#FFB86C80", //#ffa6007a
         "menubar.selectionBackground": "#232634",
         "menu.background": "#161925",
         "menu.selectionBackground": "#6272A488",
@@ -360,7 +351,7 @@
         "textLink.activeForeground": "#8BE9FD",
         "commandCenter.background": "#11131c",
         "commandCenter.border": "#00000000",
-		"quickInputTitle.background": "#574473",
+        "quickInputTitle.background": "#574473",
         "editorLightBulbAutoFix.foreground": "#8BE9FD", // untested
         "editorLightBulb.foreground": "#F1FA8C"
     },
@@ -399,7 +390,10 @@
         },
         {
             "name": "Class definitions",
-            "scope": ["entity.name.type.class", "entity.name.type.cpp"],
+            "scope": [
+                "entity.name.type.class",
+                "entity.name.type.cpp"
+            ],
             "settings": {
                 "foreground": "#A6E22E",
                 "fontStyle": "underline",
@@ -701,7 +695,9 @@
         },
         {
             "name": "Types",
-            "scope": ["entity.name.type"],
+            "scope": [
+                "entity.name.type"
+            ],
             "settings": {
                 "foreground": "#66D9EF"
             }
