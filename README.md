@@ -1,5 +1,4 @@
 <h1 align="center">Sweet Dracula Monokai</h1>
-
 <p align="center">
     <a title="Preview Theme in vscode.dev" href="https://vscode.dev/theme/lefd.sweetdracula-monokai">
         <img src="https://img.shields.io/badge/preview_in_vscode.dev-blue?style=for-the-badge&logo=visualstudiocode&color=007ACC">
@@ -14,24 +13,36 @@
     <a title="Visual Studio Marketplace Downloads" href="https://marketplace.visualstudio.com/items?itemName=lefd.sweetdracula-monokai">
         <img src="https://img.shields.io/visual-studio-marketplace/d/lefd.sweetdracula-monokai?style=flat-square">
     </a>
-    <a title="Open VSX Downloads" href="https://marketplace.visualstudio.com/items?itemName=lefd.sweetdracula-monokai">
-        <img src="https://img.shields.io/open-vsx/dt/lefd/sweetdracula-monokai?label=open%20vsx%20downloads&style=flat-square">
+    <a title="Open VSX Downloads" href="https://open-vsx.org/extension/lefd/sweetdracula-monokai">
+        <img src="https://img.shields.io/open-vsx/dt/lefd/sweetdracula-monokai?label=Open%20VSX%20Downloads&style=flat-square">
     </a>
 </p>
 
 <p align="center">
-    <b>Sweet Dracula Monokai</b> - PROxZIMA's <a href="https://github.com/PROxZIMA/sweet-dracula">Sweet Dracula theme</a> with visibility improvements and Monokai-style syntax highlighting.
+    <b>Sweet Dracula Monokai</b> - PROxZIMA's <a href="https://github.com/PROxZIMA/sweet-dracula">Sweet Dracula theme</a> with enhanced readability and Monokai-style syntax highlighting.
     <br>
-    Available for <a href="https://marketplace.visualstudio.com/items?itemName=lefd.sweetdracula-monokai">VSCode</a> and <a href="https://open-vsx.org/extension/lefd/sweetdracula-monokai">VSCodium</a>.
+    Available for <a href="https://marketplace.visualstudio.com/items?itemName=lefd.sweetdracula-monokai">VS Code</a> and <a href="https://open-vsx.org/extension/lefd/sweetdracula-monokai">Code - OSS</a>.
 </p>
-
----
-
-## VSCode Screenshot
 
 ![VS Code](assets/screenshot-1.1.4.png)
 
-### Editor Settings in Screenshot
+## Installation
+
+1. in VS Code, launch the Quick Open panel (`Ctrl + P` / `⌘ P`)
+2. execute the following command:
+    ```
+    ext install lefd.sweetdracula-monokai
+    ```
+3. ⭐[rate the theme 5 stars](https://marketplace.visualstudio.com/items?itemName=lefd.sweetdracula-monokai&ssr=false#review-details)
+
+### Alternate Method
+
+1. in VS Code, open the Extensions view (`Ctrl + Shift + X` / `⇧ ⌘ X`)
+2. in the search box, search for "Sweet Dracula Monokai"
+3. press "Install" and choose "Sweet Dracula Monokai" from the dropdown menu
+4. ⭐[rate the theme 5 stars](https://marketplace.visualstudio.com/items?itemName=lefd.sweetdracula-monokai&ssr=false#review-details)
+
+## Editor Settings in Screenshot
 
 Font used: [Fira Code](https://github.com/tonsky/FiraCode) with ligatures.
 
