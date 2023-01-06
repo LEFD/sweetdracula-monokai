@@ -75,11 +75,10 @@
         "activityBar.activeBorder": "#FF79C6",
         "activityBar.inactiveForeground": "#6272A4",
         "activityBarBadge.background": "#FF79C6",
-        "activityBarBadge.foreground": "#232634",
+        "activityBarBadge.foreground": "#11131c",
         "badge.foreground": "#F8F8F2",
         "badge.background": "#232634",
-        "focusBorder": "#3F4F81", //? make this the same color as cursor highlight
-        // "foreground": "#F8F8F2",
+        "focusBorder": "#3F4F81",
         "selection.background": "#BD93F940",
         "errorForeground": "#FF5555",
         "breadcrumb.background": "#161925",
@@ -313,7 +312,8 @@
         "terminalCursor.foreground": "#66D9EF",
         "terminalCommandDecoration.defaultBackground": "#BD93F9",
         "terminalCommandDecoration.errorBackground": "#FF5555",
-        "terminalCommandDecoration.successBackground": "#8BE9FD", // id make this green but vscode default is blue
+        "terminalCommandDecoration.successBackground": "#50FA7B",
+        "terminal.tab.activeBorder": "#FF79C6",
         "titleBar.activeBackground": "#161925",
         "titleBar.inactiveBackground": "#11131C",
         "titleBar.inactiveForeground": "#6272A4",
@@ -353,7 +353,8 @@
         "commandCenter.border": "#00000000",
         "quickInputTitle.background": "#574473",
         "editorLightBulbAutoFix.foreground": "#8BE9FD", // untested
-        "editorLightBulb.foreground": "#F1FA8C"
+        "editorLightBulb.foreground": "#F1FA8C",
+        "editorRuler.foreground": "#2B294040", // "editor.rulers" must be enabled; vertical lines after a certain number of monospace characters
     },
     "tokenColors": [
         {
