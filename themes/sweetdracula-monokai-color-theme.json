@@ -98,23 +98,29 @@
         "dropdown.listBackground": "#11131c",
         // "editor.foreground": "#F8F8F2",
         "editor.background": "#161925",
-        //? "editorGutter.background": "#11131c", 
         "editorLineNumber.foreground": "#6272A4",
         "editorLineNumber.activeForeground": "#8BE9FD",
         "editorCursor.foreground": "#8BE9FD",
-        "editor.selectionBackground": "#44475A",
-        "editor.selectionHighlightBorder": "#44475A",
-        "editor.selectionForeground": "#8BE9FD", // make white
-        "editor.wordHighlightBackground": "#8BE9FD50",
-        "editor.wordHighlightStrongBackground": "#50FA7B50",
+        // EDITOR SELECTION
+        "editor.selectionBackground": "#44475A", // highlighted text
+        "editor.selectionHighlightBackground": "#44475A40", // highlighted occurrences, e.g. if cursor is on a word
+        "editor.selectionHighlightBorder": "#F8F8F220",
+        "editor.selectionForeground": "#8BE9FD", // make white, where does this occur?
+        "editor.wordHighlightBackground": "#8BE9FD20", // e.g. cursor is on a CSS property
+        "editor.wordHighlightStrongBackground": "#50FA7B20", // e.g. cursor is on a CSS selector
+        "editor.wordHighlightBorder": "#8BE9FD20",
+        "editor.wordHighlightStrongBorder": "#50FA7B20",
+        // EDITOR SEARCH
+        "editor.findMatchBackground": "#FF79C640", // current search match
+        // "editor.findMatchBorder": "#FF79C640", // current search match
+        "editor.findMatchHighlightBackground": "#FF79C620", // other search matches
+        "editor.findMatchHighlightBorder": "#FF79C620", // other search matches
+        "editor.rangeHighlightBackground": "#BD93F920", // line background of current search match
+        "editor.findRangeHighlightBackground": "#6272A420",
+        // ---
         "editor.foldBackground": "#04000040",
-        "editor.findMatchBackground": "#50FA7B40",
-        "editor.findMatchBorder": "#50FA7B80",
-        "editor.findMatchHighlightBackground": "#FF79C640",
-        // "editor.findRangeHighlightBackground": "#ff00ff", //? what is this?
-        "editor.hoverHighlightBackground": "#8BE9FD40",
+        "editor.hoverHighlightBackground": "#BD93F940", // e.g. <-
         "editorLink.activeForeground": "#8BE9FD",
-        "editor.rangeHighlightBackground": "#161925",
         "editor.lineHighlightBackground": "#232634",
         "editor.snippetTabstopHighlightBackground": "#8BE9FD20",
         "editor.snippetTabstopHighlightBorder": "#8BE9FD80",
