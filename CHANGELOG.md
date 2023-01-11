@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.1.5
+
+- updated readme
+- improved (search) highlight colors
+- brighter git colors in minimap and overview ruler
+- minor tweaks
+
 ## 1.1.4
 
 - updated readme
@@ -7,7 +14,7 @@
 - updated peekview colors
 - adjusted various git related colors
 - updated search highlighting
-- small visibility improvements
+- small readability improvements
 
 ## 1.1.3
 
@@ -21,7 +28,7 @@
 
 ## 1.1.0
 
-- list selection visibility improvements
+- list selection readability improvements
 - better snippet tabstop highlighting
 - changed "findMatch" highlighting
 - switched warning color from cyan to yellow
@@ -33,7 +40,7 @@
 ## 1.0.0
 
 - Initial release
-- improved overall UI visibility
+- improved overall UI readability
 - reduced brightness of foreground colors
 
 ## Previous
