@@ -39,7 +39,7 @@
 
 1. in VS Code, open the Extensions view (`Ctrl + Shift + X` / `⇧ ⌘ X`)
 2. in the search box, search for "Sweet Dracula Monokai"
-3. press "Install" and choose "Sweet Dracula Monokai" from the dropdown menu
+3. press "Install" and choose "Sweet Dracula Monokai" from the Command Palette
 4. ⭐[rate the theme 5 stars](https://marketplace.visualstudio.com/items?itemName=lefd.sweetdracula-monokai&ssr=false#review-details)
 
 ## Editor Settings in Screenshot
@@ -59,6 +59,6 @@ Font used: [Fira Code](https://github.com/tonsky/FiraCode) with ligatures.
 "editor.renderWhitespace": "trailing",
 ```
 
----
+## Feedback
 
-Send me feedback on [GitHub](https://github.com/LEFD/sweetdracula-monokai).
+Have you found a problem, have an idea, or any recommendations? Don't hesitate to [open an issue on GitHub](https://github.com/LEFD/sweetdracula-monokai/issues/new). All forms of feedback are appreciated.
