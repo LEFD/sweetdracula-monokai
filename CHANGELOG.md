@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.6
+
+- updated .vscodeignore
+
 ## 1.1.5
 
 - updated readme
