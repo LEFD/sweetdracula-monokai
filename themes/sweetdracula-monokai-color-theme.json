@@ -75,7 +75,7 @@
         "activityBar.activeBorder": "#FF79C6",
         "activityBar.inactiveForeground": "#6272A4",
         "activityBarBadge.background": "#FF79C6",
-        "activityBarBadge.foreground": "#11131c",
+        "activityBarBadge.foreground": "#000",
         "badge.foreground": "#F8F8F2",
         "badge.background": "#232634",
         "focusBorder": "#3F4F81",
@@ -218,6 +218,7 @@
         "input.foreground": "#F8F8F2",
         "input.placeholderForeground": "#6272A4",
         "inputOption.activeBackground": "#bd93f980",
+        "inputOption.activeBorder": "#0000",
         "inputValidation.infoBorder": "#8BE9FD",
         "inputValidation.warningBorder": "#F1FA8C",
         "inputValidation.errorBorder": "#FF5555",
@@ -236,7 +237,7 @@
         "merge.currentHeaderBackground": "#50FA7B40",
         "merge.incomingHeaderBackground": "#BD93F940",
         "mergeEditor.change.background": "#50FA7B20",
-        "mergeEditor.change.word.background": "#50FA7B40",
+        "mergeEditor.change.word.background": "#50FA7B20",
         "mergeEditor.conflict.handled.minimapOverViewRuler": "#50FA7B80", //#adaca8ee
         "mergeEditor.conflict.handledFocused.border": "#50FA7B80", //#c1c1c1cc
         "mergeEditor.conflict.handledUnfocused.border": "#50FA7B20", //#86868649
@@ -285,7 +286,7 @@
         "scrollbarSlider.activeBackground": "#97B6FF6D",
         "settings.focusedRowBorder": "#3F4F81",
         "settings.modifiedItemIndicator": "#8BE9FD",
-        "sideBar.background": "#161925",
+        "settings.headerBorder": "#3F4F81",
         "sideBar.border": "#2B2940",
         "sideBarTitle.foreground": "#F8F8F2",
         "sideBarSectionHeader.background": "#11131C",

@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.1.7
+
+- fixes
+- improved merge editor readability
+
 ## 1.1.6
 
 - updated .vscodeignore
