@@ -287,6 +287,7 @@
         "settings.focusedRowBorder": "#3F4F81",
         "settings.modifiedItemIndicator": "#8BE9FD",
         "settings.headerBorder": "#3F4F81",
+        "sideBar.background": "#161925",
         "sideBar.border": "#2B2940",
         "sideBarTitle.foreground": "#F8F8F2",
         "sideBarSectionHeader.background": "#11131C",
