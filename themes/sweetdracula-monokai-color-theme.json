@@ -67,11 +67,10 @@
         },
     },
     "colors": {
-        //! Hex editor: changed values have a low contrast
         // effected properties: "editor.foreground" & "minimapGutter.modifiedBackground"
         "activityBar.background": "#232634",
-        "activityBar.foreground": "#F8F8F2",
-        "activityBar.border": "#2B294000",
+        "activityBar.foreground": "#FF79C6",
+        "activityBar.border": "#00000000",
         "activityBar.activeBorder": "#FF79C6",
         "activityBar.inactiveForeground": "#6272A4",
         "activityBarBadge.background": "#FF79C6",
@@ -87,16 +86,21 @@
         "breadcrumb.activeSelectionForeground": "#F8F8F2",
         "breadcrumbPicker.background": "#161925",
         "button.background": "#574473",
-        // "button.foreground": "#F8F8F2",
         // "contrastBorder": "#191A21", // this moves some items by a couple pixels
         "debugToolBar.background": "#161925",
+        "diffEditor.diagonalFill": "#343746",
         "diffEditor.insertedTextBackground": "#50FA7B20",
         "diffEditor.removedTextBackground": "#FF555550",
-        "diffEditorOverview.insertedForeground": "#50FA7B",
-        "diffEditorOverview.removedForeground": "#FF5555",
+        "diffEditor.insertedLineBackground": "#50FA7B20",
+        "diffEditor.removedLineBackground": "#FF555520",
+        "diffEditor.move.border": "#6272A4",
+        "diffEditor.moveActive.border": "#FFB86C",
+        "diffEditor.unchangedRegionBackground": "#343746",
+        "diffEditor.unchangedCodeBackground": "#34374640",
+        "diffEditorOverview.insertedForeground": "#50FA7BB0",
+        "diffEditorOverview.removedForeground": "#FF5555B0",
         "dropdown.background": "#11131c",
         "dropdown.listBackground": "#11131c",
-        // "editor.foreground": "#F8F8F2",
         "editor.background": "#161925",
         "editorLineNumber.foreground": "#6272A4",
         "editorLineNumber.activeForeground": "#8BE9FD",
@@ -106,8 +110,8 @@
         "editor.selectionHighlightBackground": "#44475A40", // highlighted occurrences, e.g. if cursor is on a word
         "editor.selectionHighlightBorder": "#F8F8F220",
         "editor.selectionForeground": "#8BE9FD", // make white, where does this occur?
-        "editor.wordHighlightBackground": "#8BE9FD20", // e.g. cursor is on a CSS property
-        "editor.wordHighlightStrongBackground": "#50FA7B20", // e.g. cursor is on a CSS selector
+        "editor.wordHighlightBackground": "#8BE9FD30", // e.g. cursor is on a CSS property
+        "editor.wordHighlightStrongBackground": "#50FA7B30", // e.g. cursor is on a CSS selector
         "editor.wordHighlightBorder": "#8BE9FD20",
         "editor.wordHighlightStrongBorder": "#50FA7B20",
         // EDITOR SEARCH
@@ -132,9 +136,9 @@
         "minimap.findMatchHighlight": "#FF79C6",
         "minimapSlider.activeBackground": "#6272A488",
         // "minimap.selectionOccurrenceHighlight": "#8BE9FD50",
-        "minimapGutter.modifiedBackground": "#8BE9FD",
-        "minimapGutter.addedBackground": "#50FA7B",
-        "minimapGutter.deletedBackground": "#FF5555",
+        "minimapGutter.modifiedBackground": "#8BE9FDB0",
+        "minimapGutter.addedBackground": "#50FA7BB0",
+        "minimapGutter.deletedBackground": "#FF5555B0",
         "editorBracketMatch.background": "#FFD7001A",
         "editorBracketMatch.border": "#FFD700",
         "editorBracketPairGuide.activeBackground1": "#FFD700C0",
@@ -147,27 +151,26 @@
         "editorBracketPairGuide.background3": "#87CEFA65",
         "editorBracketHighlight.foreground3": "#87CEFA",
         // "editorHoverWidget.highlightForeground": "#44475A",
-        "editorIndentGuide.background": "#42445075",
+        "editorIndentGuide.background1": "#6273a440",
+        "editorIndentGuide.activeBackground1": "#6273a480",
         "editorWhitespace.foreground": "#424450",
-        "editorIndentGuide.activeBackground": "#6273a475",
         "editorCodeLens.foreground": "#6272A4",
         "editorOverviewRuler.border": "#2B294040",
-        "editorOverviewRuler.selectionHighlightForeground": "#44475A80",
+        "editorOverviewRuler.selectionHighlightForeground": "#44475A",
         "editorOverviewRuler.wordHighlightForeground": "#8BE9FD",
         "editorOverviewRuler.wordHighlightStrongForeground": "#50FA7B",
-        "editorOverviewRuler.modifiedForeground": "#8BE9FD",
-        "editorOverviewRuler.addedForeground": "#50FA7B",
-        "editorOverviewRuler.deletedForeground": "#FF5555",
-        "editorOverviewRuler.errorForeground": "#FF555580",
-        "editorOverviewRuler.warningForeground": "#F1FA8C80",
+        "editorOverviewRuler.modifiedForeground": "#8BE9FDB0",
+        "editorOverviewRuler.addedForeground": "#50FA7BB0",
+        "editorOverviewRuler.deletedForeground": "#FF5555B0",
+        "editorOverviewRuler.errorForeground": "#FF5555B0",
+        "editorOverviewRuler.warningForeground": "#F1FA8CA0",
         "editorOverviewRuler.infoForeground": "#8BE9FD80",
         "editorOverviewRuler.findMatchForeground": "#FF79C680",
+        "editorOverviewRuler.bracketMatchForeground": "#FFD700",
+        "editorOverviewRuler.wordHighlightTextForeground": "#BD93F9",
         "editorError.foreground": "#FF5555",
         "editorWarning.foreground": "#F1FA8C",
         "editorInfo.foreground": "#8BE9FD",
-        // "editorHint.foreground": "#ff00ff",
-        // "editorHint.foreground": "#ff00ff", //? what is this?
-        // "problemsErrorIcon.foreground" and stuff will default to "editorError.foreground"
         "editorGutter.modifiedBackground": "#8BE9FD80",
         "editorGutter.addedBackground": "#50FA7B80",
         "editorGutter.deletedBackground": "#FF555580",
@@ -180,7 +183,7 @@
         "tab.activeBackground": "#161925",
         "tab.activeForeground": "#F8F8F2",
         "tab.activeBorderTop": "#FF79C6",
-        "tab.unfocusedActiveBorderTop": "#232634BB",
+        "tab.unfocusedActiveBorderTop": "#6272A4",
         "tab.unfocusedActiveBackground": "#161925",
         "tab.border": "#11131C",
         "tab.inactiveBackground": "#11131C",
@@ -204,16 +207,16 @@
         "extensionIcon.sponsorForeground": "#FF79C6",
         "extensionIcon.starForeground": "#F1FA8C",
         "extensionIcon.verifiedForeground": "#8BE9FD",
-        "gitDecoration.addedResourceForeground": "#50FA7B", //#81b88b
-        "gitDecoration.conflictingResourceForeground": "#FF79C6", //#e4676b
-        "gitDecoration.deletedResourceForeground": "#FF5555", //#c74e39
-        "gitDecoration.ignoredResourceForeground": "#6272A4", //#8c8c8c
-        "gitDecoration.modifiedResourceForeground": "#8BE9FD", //#e2c08d
-        "gitDecoration.renamedResourceForeground": "#50FA7B", //#73c991
-        "gitDecoration.stageDeletedResourceForeground": "#F92672", //#c74e39
-        "gitDecoration.stageModifiedResourceForeground": "#66D9EF", //#e2c08d
-        "gitDecoration.submoduleResourceForeground": "#BD93F9", //#8db9e2
-        "gitDecoration.untrackedResourceForeground": "#50FA7B", //#73c991
+        "gitDecoration.addedResourceForeground": "#50FA7B",
+        "gitDecoration.conflictingResourceForeground": "#FF79C6",
+        "gitDecoration.deletedResourceForeground": "#FF5555",
+        "gitDecoration.ignoredResourceForeground": "#6272A4",
+        "gitDecoration.modifiedResourceForeground": "#8BE9FD",
+        "gitDecoration.renamedResourceForeground": "#50FA7B",
+        "gitDecoration.stageDeletedResourceForeground": "#F92672",
+        "gitDecoration.stageModifiedResourceForeground": "#66D9EF",
+        "gitDecoration.submoduleResourceForeground": "#BD93F9",
+        "gitDecoration.untrackedResourceForeground": "#50FA7B",
         "input.background": "#11131c",
         "input.foreground": "#F8F8F2",
         "input.placeholderForeground": "#6272A4",
@@ -327,7 +330,7 @@
         "titleBar.activeBackground": "#161925",
         "titleBar.inactiveBackground": "#11131C",
         "titleBar.inactiveForeground": "#6272A4",
-        "tree.indentGuidesStroke": "#6273a475",
+        "tree.indentGuidesStroke": "#6273a480",
         "debugIcon.continueForeground": "#8BE9FD",
         "debugIcon.startForeground": "#50FA7B",
         "debugIcon.restartForeground": "#50FA7B",
@@ -351,12 +354,7 @@
         "debugView.exceptionLabelForeground": "#F8F8F2",
         "debugView.exceptionLabelBackground": "#FF5555",
         "debugView.stateLabelBackground": "#343746",
-        // "keybindingLabel.background": "#343746",
-        // "keybindingLabel.bottomBorder": "#424450",
-        // "keybindingLabel.border": "#424450",
         "walkThrough.embeddedEditorBackground": "#232634",
-        "diffEditor.insertedLineBackground": "#50FA7B20",
-        "diffEditor.removedLineBackground": "#FF555520",
         "textLink.foreground": "#8BE9FD",
         "textLink.activeForeground": "#8BE9FD",
         "commandCenter.background": "#11131c",
@@ -475,7 +473,8 @@
                 "wildcard.comment"
             ],
             "settings": {
-                "foreground": "#6272A4"
+                "foreground": "#6272A4",
+                "fontStyle": "italic"
             }
         },
         {
@@ -2109,6 +2108,15 @@
             ],
             "settings": {
                 "foreground": "#66D9EF",
+            }
+        },
+        {
+            "name": "C/C++ enum",
+            "scope": [
+                "variable.other.enummember"
+            ],
+            "settings": {
+                "foreground": "#BD93F9",
             }
         }
     ]
