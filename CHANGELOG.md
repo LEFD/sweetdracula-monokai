@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.1.9
+
+- update logo and readme
+- improve readability of unfocused active tab
+- support updated diff editor
+- minor tweaks
+
 ## 1.1.8
 
 - fixes
