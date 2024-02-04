@@ -106,7 +106,8 @@
         "editorLineNumber.activeForeground": "#8BE9FD",
         "editorCursor.foreground": "#8BE9FD",
         // EDITOR SELECTION
-        "editor.selectionBackground": "#44475A", // highlighted text
+        "editor.selectionBackground": "#6272A460", // highlighted text
+        "editor.inactiveSelectionBackground": "#44475A60",
         "editor.selectionHighlightBackground": "#44475A40", // highlighted occurrences, e.g. if cursor is on a word
         "editor.selectionHighlightBorder": "#F8F8F220",
         "editor.selectionForeground": "#8BE9FD", // make white, where does this occur?
@@ -132,7 +133,7 @@
         "editor.snippetFinalTabstopHighlightBorder": "#50FA7B",
         "minimapSlider.background": "#4c4b5f40",
         "minimapSlider.hoverBackground": "#4c4b5f60", // #161925 + ??????40 = #232634;
-        "minimap.selectionHighlight": "#44475A",
+        "minimap.selectionHighlight": "#6272A4",
         "minimap.findMatchHighlight": "#FF79C6",
         "minimapSlider.activeBackground": "#6272A488",
         // "minimap.selectionOccurrenceHighlight": "#8BE9FD50",
@@ -153,7 +154,7 @@
         // "editorHoverWidget.highlightForeground": "#44475A",
         "editorIndentGuide.background1": "#6273a440",
         "editorIndentGuide.activeBackground1": "#6273a480",
-        "editorWhitespace.foreground": "#424450",
+        "editorWhitespace.foreground": "#6273A480",
         "editorCodeLens.foreground": "#6272A4",
         "editorOverviewRuler.border": "#2B294040",
         "editorOverviewRuler.selectionHighlightForeground": "#44475A",

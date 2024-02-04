@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.10
+
+- improve rendered whitespace and selection highlight contrast, to work better together (#1)
+
 ## 1.1.9
 
 - update logo and readme
