@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.1.11
+
+- improve text styling (e.g. release notes)
+- support for Activity Bar position at top/bottom
+
 ## 1.1.10
 
 - improve rendered whitespace and selection highlight contrast, to work better together (#1)

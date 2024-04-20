@@ -67,14 +67,20 @@
         },
     },
     "colors": {
-        // effected properties: "editor.foreground" & "minimapGutter.modifiedBackground"
+        // affected properties: "editor.foreground" & "minimapGutter.modifiedBackground"
         "activityBar.background": "#232634",
         "activityBar.foreground": "#FF79C6",
         "activityBar.border": "#00000000",
         "activityBar.activeBorder": "#FF79C6",
         "activityBar.inactiveForeground": "#6272A4",
+        "activityBar.dropBorder": "#3F4F81",
         "activityBarBadge.background": "#FF79C6",
         "activityBarBadge.foreground": "#000",
+        "activityBarTop.activeBorder": "#FF79C6",
+        "activityBarTop.background": "#11131c",
+        "activityBarTop.foreground": "#FF79C6",
+        "activityBarTop.inactiveForeground": "#6272A4",
+        "activityBarTop.dropBorder": "#3F4F81",
         "badge.foreground": "#F8F8F2",
         "badge.background": "#232634",
         "focusBorder": "#3F4F81",
@@ -191,6 +197,7 @@
         "tab.inactiveForeground": "#CCCCCC",
         "tab.activeModifiedBorder": "#8BE9FD",
         "tab.unfocusedActiveModifiedBorder": "#8BE9FD40",
+        "tab.dragAndDropBorder": "#3F4F81",
         "editorWidget.background": "#161925",
         "editorWidget.border": "#6272A4",
         "editorWidget.resizeBorder": "#BD93F9",
@@ -266,6 +273,7 @@
         "notificationsWarningIcon.foreground": "#FFB86C",
         "panel.background": "#161925",
         "panel.border": "#2B2940", // border over terminal
+        "panel.dropBorder": "#3F4F81",
         "panelTitle.activeBorder": "#FF79C6",
         "panelTitle.activeForeground": "#F8F8F2",
         "panelTitle.inactiveForeground": "#6272A4",
@@ -356,8 +364,14 @@
         "debugView.exceptionLabelBackground": "#FF5555",
         "debugView.stateLabelBackground": "#343746",
         "walkThrough.embeddedEditorBackground": "#232634",
+        "textBlockQuote.background": "#11131c",
+        "textBlockQuote.border": "#FF79C6",
+        "textCodeBlock.background": "#11131c",
         "textLink.foreground": "#8BE9FD",
         "textLink.activeForeground": "#8BE9FD",
+        "textPreformat.background": "#11131c", // inline code
+        "textPreformat.foreground": "#BD93F9", // inline code
+        "textSeparator.foreground": "#6272A4",
         "commandCenter.background": "#11131c",
         "commandCenter.border": "#00000000",
         "quickInputTitle.background": "#574473",
@@ -1385,7 +1399,8 @@
             "scope": [
                 "beginning.punctuation.definition.list.markdown",
                 "beginning.punctuation.definition.quote.markdown",
-                "punctuation.definition.link.restructuredtext"
+                "punctuation.definition.link.restructuredtext",
+                "punctuation.definition.list.begin.markdown"
             ],
             "settings": {
                 "foreground": "#66D9EF"
