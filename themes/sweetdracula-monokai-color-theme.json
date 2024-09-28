@@ -1525,6 +1525,60 @@
             }
         },
         {
+            "name": "Markdown H1 Heading",
+            "scope": [
+                "heading.1.markdown"
+            ],
+            "settings": {
+                "foreground": "#F92672"
+            }
+        },
+        {
+            "name": "Markdown H2 Heading",
+            "scope": [
+                "heading.2.markdown"
+            ],
+            "settings": {
+                "foreground": "#FD971F"
+            }
+        },
+        {
+            "name": "Markdown H3 Heading",
+            "scope": [
+                "heading.3.markdown"
+            ],
+            "settings": {
+                "foreground": "#E6DB74"
+            }
+        },
+        {
+            "name": "Markdown H4 Heading",
+            "scope": [
+                "heading.4.markdown"
+            ],
+            "settings": {
+                "foreground": "#A6E22E"
+            }
+        },
+        {
+            "name": "Markdown H5 Heading",
+            "scope": [
+                "heading.5.markdown"
+            ],
+            "settings": {
+                "foreground": "#66D9EF"
+            }
+        },
+        {
+            "name": "Markdown H6 Heading",
+            "scope": [
+                "heading.6.markdown"
+            ],
+            "settings": {
+                "foreground": "#AE81FF"
+            }
+        },
+        {
             "name": "Objective-C Storage",
             "scope": [
                 "meta.implementation storage.type.objc",
