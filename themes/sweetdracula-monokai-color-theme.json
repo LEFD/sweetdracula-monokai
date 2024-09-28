@@ -111,6 +111,7 @@
         "editorLineNumber.foreground": "#6272A4",
         "editorLineNumber.activeForeground": "#8BE9FD",
         "editorCursor.foreground": "#8BE9FD",
+        "editorMultiCursor.secondary.foreground": "#50FA7B",
         // EDITOR SELECTION
         "editor.selectionBackground": "#6272A460", // highlighted text
         "editor.inactiveSelectionBackground": "#44475A60",
@@ -260,6 +261,8 @@
         "menu.selectionBackground": "#6272A488",
         "menu.separatorBackground": "#6272A4",
         "menu.foreground": "#CCCCCC",
+"multiDiffEditor.headerBackground": "#11131c",
+        "multiDiffEditor.border": "#2B2940", // this is not a draggable border, but it looks alright
         "notificationCenter.border": "#6272A4",
         "notificationCenterHeader.foreground": "#F8F8F2",
         "notificationCenterHeader.background": "#232634",
@@ -299,6 +302,13 @@
         "settings.focusedRowBorder": "#3F4F81",
         "settings.modifiedItemIndicator": "#8BE9FD",
         "settings.headerBorder": "#3F4F81",
+"scmGraph.historyItemHoverLabelForeground": "#000", // font on color
+        "scmGraph.historyItemGroupBase": "#BD93F9", // defaults to pink
+        "scmGraph.historyItemGroupRemote": "#FF79C6", // defaults to purple
+        "scmGraph.foreground1": "#50FA7B",
+        "scmGraph.foreground2": "#FF5555",
+        "scmGraph.foreground3": "#F1FA8C",
+        "scm.historyItemStatisticsBorder": "#BD93F980",
         "sideBar.background": "#161925",
         "sideBar.border": "#2B2940",
         "sideBarTitle.foreground": "#F8F8F2",
@@ -375,9 +385,15 @@
         "commandCenter.background": "#11131c",
         "commandCenter.border": "#00000000",
         "quickInputTitle.background": "#574473",
-        "editorLightBulbAutoFix.foreground": "#8BE9FD", // untested
+        "editorLightBulbAutoFix.foreground": "#8BE9FD",
         "editorLightBulb.foreground": "#F1FA8C",
         "editorRuler.foreground": "#2B294040", // "editor.rulers" must be enabled; vertical lines after a certain number of monospace characters
+"editor.foldPlaceholderForeground": "#6272A4",
+        "editorStickyScrollHover.background": "#3E486880",
+        // bookmarks extension
+        "bookmarks.overviewRuler": "#A66A21",
+        "bookmarks.lineBackground": "#A66A2120",
+        "bookmarks.lineBorder": "#FFB86C20",
     },
     "tokenColors": [
         {
