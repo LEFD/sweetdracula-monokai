@@ -6,13 +6,13 @@
             "background": "#161925",
             "foreground": "#F8F8F2",
             "fg-light": "#CCCCCC",
-            "cyan": "#8BE9FD",
-            "green": "#50FA7B",
-            "orange": "#FFB86C",
-            "pink": "#FF79C6",
-            "purple": "#BD93F9",
-            "red": "#FF5555",
-            "yellow": "#F1FA8C",
+            "cyan": "#8BE9FD",       // highlight: 2D95A7
+            "green": "#50FA7B",      // highlight: 00A52D
+            "orange": "#FFB86C",     // highlight: A66A21
+            "pink": "#FF79C6",       // highlight: A62377
+            "purple": "#BD93F9",     // highlight: 6A46A3
+            "red": "#FF5555",        // highlight: 9E0011
+            "yellow": "#F1FA8C",     // highlight: 9DA73D
             "white": "#FFFFFF"
         },
         "ansi": {
@@ -118,15 +118,15 @@
         "editor.selectionHighlightBackground": "#44475A40", // highlighted occurrences, e.g. if cursor is on a word
         "editor.selectionHighlightBorder": "#F8F8F220",
         "editor.selectionForeground": "#8BE9FD", // make white, where does this occur?
-        "editor.wordHighlightBackground": "#8BE9FD30", // e.g. cursor is on a CSS property
-        "editor.wordHighlightStrongBackground": "#50FA7B30", // e.g. cursor is on a CSS selector
-        "editor.wordHighlightBorder": "#8BE9FD20",
-        "editor.wordHighlightStrongBorder": "#50FA7B20",
+        "editor.wordHighlightBackground": "#2D95A740", // e.g. cursor is on a CSS property
+        "editor.wordHighlightStrongBackground": "#00A52D40", // e.g. cursor is on a CSS selector
+        "editor.wordHighlightBorder": "#8BE9FD30",
+        "editor.wordHighlightStrongBorder": "#50FA7B30",
         // EDITOR SEARCH
-        "editor.findMatchBackground": "#FF79C640", // current search match
-        // "editor.findMatchBorder": "#FF79C640", // current search match
-        "editor.findMatchHighlightBackground": "#FF79C620", // other search matches
-        "editor.findMatchHighlightBorder": "#FF79C620", // other search matches
+        "editor.findMatchBackground": "#6A46A380", // current search match
+        "editor.findMatchBorder": "#BD93F980", // current search match
+        "editor.findMatchHighlightBackground": "#A6237780", // other search matches
+        "editor.findMatchHighlightBorder": "#FF79C680", // other search matches
         "editor.rangeHighlightBackground": "#BD93F920", // line background of current search match
         "editor.findRangeHighlightBackground": "#6272A420",
         // ---
