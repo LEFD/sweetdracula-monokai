@@ -1,5 +1,14 @@
 # Change Log
 
+## 1.1.14
+
+- style new VS Code features, including: sticky scroll, SCM graphs, multi diff editor
+- introduce new colors for background of highlighted text
+  - further refine search highlighting
+- update styling of markdown syntax highlighting (headings)
+- support for Bookmarks extension
+- update readme, including updated font ligatures for Iosevka v31
+
 ## 1.1.11
 
 - improve text styling (e.g. release notes)
